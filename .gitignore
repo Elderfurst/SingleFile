@@ -3,3 +3,4 @@ packages/
 SingleFile/bin/
 SingleFile/obj/
 SingleFileWeb/node_modules/
+*.csproj.user

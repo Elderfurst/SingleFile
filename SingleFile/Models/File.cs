@@ -8,6 +8,6 @@ namespace SingleFile.Models
         [Key]
         public Guid Id { get; set; }
         public string Name { get; set; }
-        public DateTime ExprationDate { get; set; }
+        public DateTime ExpirationDate { get; set; }
     }
 }

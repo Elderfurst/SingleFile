@@ -6,5 +6,10 @@ namespace SingleFile.Controllers
     [ApiController]
     public class HealthCheckController : ControllerBase
     {
+        [HttpGet]
+        public ActionResult<string> Get()
+        {
+            return "All good";
+        }
     }
 }

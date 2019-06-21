@@ -6,5 +6,10 @@ namespace SingleFile.Controllers
     [ApiController]
     public class HelpController : ControllerBase
     {
+        [HttpGet]
+        public ActionResult<string> Get()
+        {
+            return "help message";
+        }
     }
 }
